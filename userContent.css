@@ -3,7 +3,7 @@
 @font-face {
 	font-family: 'Super Glue';
 	src: url('./assets/fonts/SuperGlue.woff2') format('woff2'),
-		  url('./assets/fonts/SuperGlue.woff') format('woff');
+		url('./assets/fonts/SuperGlue.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -33,16 +33,16 @@
 }
 
 /* whole middle card */
-.activity-stream .outer-wrapper > main,
+.activity-stream .outer-wrapper>main,
 .showPrivate {
 	/* background: var(--newtab-background-color-secondary) !important; */
-	background: rgba(105,105,105, 0.45) !important;
+	background: rgba(105, 105, 105, 0.45) !important;
 	border-radius: 3rem;
 	margin-top: auto !important;
 	margin-bottom: auto !important;
 }
 
-.activity-stream .outer-wrapper > main {
+.activity-stream .outer-wrapper>main {
 	/* make space for new logo/font */
 	padding: 2rem 0 0 0 !important;
 	mix-blend-mode: luminosity !important;
@@ -72,6 +72,7 @@
 	margin: 0 !important;
 	gap: 1.5rem !important;
 }
+
 .activity-stream .wordmark::after,
 .showPrivate .wordmark::after {
 	content: 'firefox';
@@ -82,6 +83,7 @@
 	font-size: 4rem;
 	letter-spacing: 0.25rem;
 }
+
 .activity-stream .wordmark::before,
 .showPrivate .wordmark::before {
 	content: '';
@@ -90,7 +92,7 @@
 	width: 6rem;
 	height: 6rem;
 	display: block;
-	filter: drop-shadow(0 0 2px rgba(0,0,0,0.2));
+	filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.2));
 }
 
 .activity-stream .search-handoff-button,
@@ -102,6 +104,7 @@
 .showPrivate .logo-and-wordmark {
 	background: transparent !important;
 }
+
 .activity-stream .search-inner-wrapper {
 	mix-blend-mode: color-dodge !important;
 	/* make fake searchbar take whole card width */
@@ -140,7 +143,7 @@ section[data-section-id='topsites'] {
 	border-radius: 30px !important;
 }
 
-#root > .no-search.no-recommended-stories main {
+#root>.no-search.no-recommended-stories main {
 	padding-top: 0 !important;
 }
 
@@ -178,6 +181,7 @@ section[data-section-id='topsites'] {
 	min-width: 0 !important;
 	max-width: 45rem !important;
 }
+
 .non-collapsible-section {
 	max-width: 45rem !important;
 }
@@ -193,7 +197,7 @@ section[data-section-id='topsites'] {
 }
 
 #root .personalizeButtonWrapper .personalize-button {
-	background: rgba(105,105,105, 0.45) !important;
+	background-color: rgba(105, 105, 105, 0.45) !important;
 	border-radius: 0.75rem !important;
 	mix-blend-mode: luminosity !important;
 }
